@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "FaceAttend",
+    "slug": "attendance-system",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "scheme": "faceattend",
+    "splash": {
+      "backgroundColor": "#07090f"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.dharankumar_cs.attendancesystem",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Camera needed for face recognition attendance",
+        "NSPhotoLibraryUsageDescription": "Gallery access for profile photo",
+        "NSFaceIDUsageDescription": "Face ID for attendance"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#07090f"
+      },
+      "package": "com.dharankumar_cs.attendancesystem",
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.INTERNET",
+        "android.permission.ACCESS_NETWORK_STATE"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow FaceAttend to access camera for attendance scanning"
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow FaceAttend to access photos for profile picture"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "8a683af5-61e1-4c11-a0d7-41ea6521db1a"
+      }
+    }
+  }
+}
