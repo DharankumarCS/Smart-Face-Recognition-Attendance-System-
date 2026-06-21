@@ -700,6 +700,7 @@ face_recognition on Windows:
 ---
 
 ## ◈ AUTHOR
+```
 ┌──────────────────────────────────────────────────────┐
 
 │                                                      │
@@ -742,6 +743,7 @@ face_recognition on Windows:
 │                                                        │
 
 └────────────────────────────────────────────────────────┘
+```
 A system that scans faces and marks attendance.
 
 Built with React Native · Powered by face_recognition · Secured by JWT
