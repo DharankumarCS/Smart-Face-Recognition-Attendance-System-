@@ -52,6 +52,7 @@ No manual roll call. No proxy attendance. Just point and scan.
 ---
 
 ## ◈ SYSTEM ARCHITECTURE
+```
 ┌─────────────────────────────────────────────────────────────────┐
 
 │                    MOBILE APPLICATION                           │
@@ -163,9 +164,8 @@ No manual roll call. No proxy attendance. Just point and scan.
 │                      └─────────────┘                            │
 
 └─────────────────────────────────────────────────────────────────┘
-
----
-
+```
+```
 ## ◈ THREE PORTALS
 ┌─────────────────────────────────────────────────────────────────┐
 
